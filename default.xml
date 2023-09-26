@@ -64,4 +64,6 @@
   <project name="u-boot.git" path="projects/uboot" remote="sel4devkit" revision="master" upstream="master" dest-branch="master">
     <linkfile src="." dest="projects/projects_libs/libubootdrivers/uboot"/>
   </project>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="b687e3d503ed685634713eae868b220bdcda8261" upstream="master" dest-branch="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4devkit" revision="master" upstream="master" dest-branch="master"/>
 </manifest>
