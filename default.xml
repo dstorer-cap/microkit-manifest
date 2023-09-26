@@ -61,4 +61,7 @@
   <project name="camkes.git" path="projects/camkes" remote="sel4devkit" revision="master" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
+  <project name="u-boot.git" path="projects/uboot" remote="sel4devkit" revision="master" upstream="master" dest-branch="master">
+    <linkfile src="." dest="projects/projects_libs/libubootdrivers/uboot"/>
+  </project>
 </manifest>
